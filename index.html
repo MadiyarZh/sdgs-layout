@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+
+            <div class="header align-items-center justify-content-space-between">    
+                <div class="languages">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <a href="#" class="basic-btn lang-btn">Қазақша</a>
+                            <a href="#" class="basic-btn lang-btn active">Русский</a>
+                            <a href="#" class="basic-btn lang-btn">English</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="logo col-lg-3 col-md-8 col-sm-12">
+                                <a href="/">
+                                    <img class="logo-img" src="assets/img/herald_logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="dropdown search-block col-lg-9 col-sm-12">
+                                <form class="search">
+                                    <input type="text" class="search-input" placeholder="Поиск">
+                                    <button type="submit">
+                                        <img class="basic-search-icon" src="assets/img/search-icon.svg" alt="search-icon">
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-wrapper col-lg-12 col-md-12">
+                    <div class="container">
+                        
+                        <div class="header-nav" id="myTopnav">
+                            <div class="dropdown">
+                                <a class="dropbtn active" href="/">
+                                    Главная
+                                </a>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropbtn" href="#">
+                                    О нас
+                                </a>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropbtn" href="#">
+                                    Новости
+                                </a>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropbtn" href="#">Цели в области устойчивого развитие 
+                                    <i class="">
+                                        <img class="basic-down-arrow-icon" src="assets/img/down-arrow-dark-mode-icon.svg" alt="">
+                                        <img class="dark-mode-down-arrow-icon" src="assets/img/down-arrow-dark-mode-icon.svg" alt="down-arrow-dark-mode-icon">
+                                    </i>
+                                </a>
+                                <div class="dropdown-content d-flex">
+                                    <div class="left-side">
+                                        <a href="#">Ликвидация нищеты</a>
+                                        <a href="#">Ликвидация голода</a>
+                                        <a href="#">Хорошее здоровье и благополучие</a>
+                                        <a href="#">Качественное образование</a>
+                                        <a href="#">Гендерное равенство</a>
+                                        <a href="#">Чистая вода и санитария</a>
+                                        <a href="#">Недорогостоящая и чистая вода</a>
+                                    </div>
+                                    <div class="right-side">
+                                        <a href="#">Достойная работа и экономический рост</a>
+                                        <a href="#">Индустриализация, инновации и инфраструктура</a>
+                                        <a href="#">Уменьшение неравенство</a>
+                                        <a href="#">Устойчивые города и населенные пункты</a>
+                                        <a href="#">Ответсвенное потребленик\е и производство</a>
+                                    </div>
+                                    <div class="right-side">
+                                        <a href="#">Борьба с изменением климата</a>
+                                        <a href="#">Сохранение морских экосистем</a>
+                                        <a href="#">Сохранение экосистем суши</a>
+                                        <a href="#">Мир, правосудие и эффективные институты</a>
+                                        <a href="#">Партнерства для целей устойчивого развития</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropbtn" href="#">
+                                    Связаться с нами
+                                </a>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropbtn" href="#">
+                                    Ресурсы
+                                </a>
+                            </div>
+                            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div class="body">
+        <div class="container">
+            <div class="main-page-wrapper">
+                <div class="heading-block">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <h2 class="title">17 ЦУР</h2>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-7 headinginfo-wrapper">
+                            <div class="headinginfo">
+                                <p class="headinginfo-number">169</p>
+                                <p class="headinginfo-text">Цели</p>
+                            </div>
+                            <div class="headinginfo">
+                                <p class="headinginfo-number">3178</p>
+                                <p class="headinginfo-text">События</p>
+                            </div>
+                            <div class="headinginfo">
+                                <p class="headinginfo-number">1322</p>
+                                <p class="headinginfo-text">Публикации</p>
+                            </div>
+                            <div class="headinginfo">
+                                <p class="headinginfo-number">6124</p>
+                                <p class="headinginfo-text">Действия</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-content row">
+                    <div data-toggle="modal" data-target="#goal-1" class="card card-goal goal-1 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal1" style="background-image: url(&quot;assets/img/img-goal-1.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">1</span>
+                                <h3 class="goal-title">Цель 1</h3>
+                                <p class="goal-text">&nbsp;Повсюду положить конец бедности во всех ее формах.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">7</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">49</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">36</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">1109</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-01.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-2" class="card card-goal goal-2 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal2" style="background-image: url(&quot;assets/img/img-goal-2.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">2</span>
+                                <h3 class="goal-title">Цель 2</h3>
+                                <p class="goal-text">Ликвидация голода, обеспечение продовольственной безопасности и улучшение питания, а также продвижение устойчивого сельского хозяйства.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">8</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">39</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">14</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">1002</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-02.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-3" class="card card-goal goal-3 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal3" style="background-image: url(&quot;assets/img/img-goal-3.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">3</span>
+                                <h3 class="goal-title">Цель 3</h3>
+                                <p class="goal-text">Обеспечить здоровый образ жизни и способствовать благополучию для всех в любом возрасте.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">13</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">18</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">35</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">940</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-03.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-4" class="card card-goal goal-4 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal4" style="background-image: url(&quot;assets/img/img-goal-4.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">4</span>
+                                <h3 class="goal-title">Цель 4</h3>
+                                <p class="goal-text">Обеспечение всеохватного и справедливого качественного образования и поощрение возможностей обучения на протяжении всей жизни для всех.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">10</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">17</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">8</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">1455</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-04.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-5" class="card card-goal goal-5 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal5" style="background-image: url(&quot;assets/img/img-goal-5.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">5</span>
+                                <h3 class="goal-title">Цель 5</h3>
+                                <p class="goal-text">Обеспечение гендерного равенства и расширение прав и возможностей всех женщин и девочек.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">9</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">28</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">34</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">1199</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-05.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-6" class="card card-goal goal-6 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal6" style="background-image: url(&quot;assets/img/img-goal-6.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">6</span>
+                                <h3 class="goal-title">Цель 6</h3>
+                                <p class="goal-text">Обеспечение доступности и устойчивого управления водными ресурсами и санитарией для всех.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">8</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">15</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">32</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">870</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-06.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-7" class="card card-goal goal-7 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal7" style="background-image: url(&quot;assets/img/img-goal-7.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">7</span>
+                                <h3 class="goal-title">Цель 7</h3>
+                                <p class="goal-text">Обеспечить доступ к недорогой, надежной, устойчивой и современной энергии для всех.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">5</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">11</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">32</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">813</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-07.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-8" class="card card-goal goal-8 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal8" style="background-image: url(&quot;assets/img/img-goal-8.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">8</span>
+                                <h3 class="goal-title">Цель 8</h3>
+                                <p class="goal-text">&nbsp;Содействовать поступательному, инклюзивному и устойчивому экономическому росту, полной и производительной занятости и достойной работе для всех.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">12</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">50</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">36</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">1500</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-08.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-9" class="card card-goal goal-9 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal9" style="background-image: url(&quot;assets/img/img-goal-9.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">9</span>
+                                <h3 class="goal-title">Цель 9</h3>
+                                <p class="goal-text">Создание устойчивой инфраструктуры, содействие инклюзивной и устойчивой индустриализации и стимулирование инноваций.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">8</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">36</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">14</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">721</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-09.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-10" class="card card-goal goal-10 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal10" style="background-image: url(&quot;assets/img/img-goal-10.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">10</span>
+                                <h3 class="goal-title">Цель 10</h3>
+                                <p class="goal-text">&nbsp;
+                    
+                    Снижение неравенства внутри стран и между странами.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">10</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">31</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">11</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">727</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-10_0.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-11" class="card card-goal goal-11 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal11" style="background-image: url(&quot;assets/img/img-goal-11.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">11</span>
+                                <h3 class="goal-title">Цель 11</h3>
+                                <p class="goal-text">Сделать города и населенные пункты открытыми, безопасными, жизнеспособными и устойчивыми.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">10</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">33</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">16</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">900</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-11.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-12" class="card card-goal goal-12 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal12" style="background-image: url(&quot;assets/img/img-goal-12.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">12</span>
+                                <h3 class="goal-title">Цель 12</h3>
+                                <p class="goal-text">Обеспечение рациональных моделей потребления и производства.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">11</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">10</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">13</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">1158</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-12.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-13" class="card card-goal goal-13 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal13" style="background-image: url(&quot;assets/img/img-goal-13.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">13</span>
+                                <h3 class="goal-title">Цель 13</h3>
+                                <p class="goal-text">Принять срочные меры по борьбе с изменением климата и его последствиями *.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">5</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">15</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">33</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">1376</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-13.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-14" class="card card-goal goal-14 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal14" style="background-image: url(&quot;assets/img/img-goal-14.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">14</span>
+                                <h3 class="goal-title">Цель 14</h3>
+                                <p class="goal-text">Сохранять и рационально использовать океаны, моря и морские ресурсы для устойчивого развития.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">10</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">59</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">38</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">2237</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-14.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-15" class="card card-goal goal-15 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal15" style="background-image: url(&quot;assets/img/img-goal-15.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">15</span>
+                                <h3 class="goal-title">Цель 15</h3>
+                                <p class="goal-text">Защищать, восстанавливать и способствовать устойчивому использованию наземных экосистем, рационально управлять лесами, бороться с опустыниванием, а также остановить и обратить вспять деградацию земель и остановить утрату биоразнообразия.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">12</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">15</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">31</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">874</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-15.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-16" class="card card-goal goal-16 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal16" style="background-image: url(&quot;assets/img/img-goal-16.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">16</span>
+                                <h3 class="goal-title">Цель 16</h3>
+                                <p class="goal-text">Содействовать мирному и инклюзивному обществу в интересах устойчивого развития, обеспечивать доступ к правосудию для всех и создавать эффективные, подотчетные и инклюзивные институты на всех уровнях.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">12</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">20</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">11</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">786</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-16.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                        
+                    <div data-toggle="modal" data-target="#goal-17" class="card card-goal goal-17 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="/ru/goals/goal17" style="background-image: url(&quot;assets/img/img-goal-17.jpg&quot;);">
+                            <div class="card-body">
+                                <span class="goal-number">17</span>
+                                <h3 class="goal-title">Цель 17</h3>
+                                <p class="goal-text">Укрепить средства реализации и активизировать глобальное партнерство в целях устойчивого развития.</p>
+                                <div class="goal-info">
+                                    <div class="col-6">
+                                        <span class="number">19</span>
+                                        <p class="feature">Цели</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">118</span>
+                                        <p class="feature">События</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">61</span>
+                                        <p class="feature">Публикации</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="number">1599</span>
+                                        <p class="feature">Действия</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-goal">Подробнее</button>
+                            </div><img src="assets/img/R-WEB-Goal-17.png" alt="goal logo" class="goal-logo">
+                        </a>
+                    </div>
+                    
+                                <div class="card  goal-global col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                                    <a href="/goals">
+                                        <img src="themes/custom/porto/assets/goals/global-goals.png" class="goal-image" alt="goal image">
+                                        See all
+                                    </a>
+                                </div>
+                            </div>
+            </div>
+        </div>
+    </div>
+    <button class="scrollToTopBtn">
+        <i class="icon-circle-up"></i>
+    </button>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="logo-block">
+                            <img src="assets/img/herald_logo.png" alt="footer-logo">
+                        </div>
+                        <h6>
+                            Тут информация как связаться с нами.
+                        </h6>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5>
+                            Самые популярные
+                        </h5>
+                        <hr>
+                        <ul>
+                            <li>
+                                <a class="content-item">
+                                    <img src="assets/img/footer-content-img-1.jpg" alt="">
+                                    <div class="item-info">
+                                        <h2>
+                                            ЭКСПОЗИЦИЯ СТАРЕЙШЕГО ВУЗА
+                                        </h2>
+                                        <span>34 просмотров</span>
+                                    </div>
+                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a class="content-item">
+                                    <img src="assets/img/footer-content-img-2.jpg" alt="">
+                                    <div class="item-info">
+                                        <h2>
+                                            «Тhe Impact Ranking Times Higher Education- университеты мира  с точки зрения ЦУР»
+                                        </h2>
+                                        <span>34 просмотров</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="content-item">
+                                    <img src="assets/img/footer-content-img-3.jpg" alt="">
+                                    <div class="item-info">
+                                        <h2>
+                                            Городской конкурс исследовательских проектов учащихся 7-9 классов «Юный исследователь и устойчивое развитие»
+                                        </h2>
+                                        <span>34 просмотров</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5>
+                            Наиболее обсуждаемые
+                        </h5>
+                        <hr>
+                        <ul>
+                            <li>
+                                <a class="content-item">
+                                    <img src="assets/img/footer-content-img-1.jpg" alt="">
+                                    <div class="item-info">
+                                        <h2>
+                                            ЭКСПОЗИЦИЯ СТАРЕЙШЕГО ВУЗА
+                                        </h2>
+                                    </div>
+                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a class="content-item">
+                                    <img src="assets/img/content-item-img-5.png" alt="">
+                                    <div class="item-info">
+                                        <h2>
+                                            Правильное питание требует грамотности
+                                        </h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="content-item">
+                                    <img src="assets/img/content-item-img-6.png" alt="">
+                                    <div class="item-info">
+                                        <h2>
+                                            Эстафета «Жасыл ел»
+                                        </h2>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5>
+                            Контакты
+                        </h5>
+                        <hr>
+                        <ul>
+                            <h6>
+                                050010, Қазақстан Республикасы
+                                Алматы қаласы, Достық даңғылы, 13
+                            </h6>
+                            <li>
+                                <strong>email:</strong> <br> info@kaznpu.kz  
+                            </li>
+                            <li>
+                                <strong>Call-орталығы:</strong> <br> 8(727)221-85-14
+                            </li>
+                            <li>
+                                <strong>Қабылдау комиссиясы:</strong> <br> 8(727)291-57-68
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        Copyright © 2022. Created by Madiyar Zhorakhan
+                    </div>
+                    <div class="col-lg-2">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="icon-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="icon-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="icon-whatsapp"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="icon-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="icon-vk"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
