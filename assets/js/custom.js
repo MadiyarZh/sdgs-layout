@@ -1,3 +1,4 @@
+
 document.addEventListener("scroll", handleScroll);
 // get a reference to our predefined button
 var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
@@ -23,3 +24,23 @@ function scrollToTop() {
     behavior: "smooth"
   });
 }
+
+
+$(document).ready(function() {
+  $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:30,
+      nav:false,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
+  });
+});
