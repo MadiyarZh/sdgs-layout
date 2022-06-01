@@ -576,7 +576,19 @@ a {
     margin-right: 0;
 }
 
+.footer-information-block {
+    display: flex;
+    justify-content: space-around;
+}
 
+.footer-information-block li {
+    max-width: 230px;
+}
+
+.footer-information-block li strong {
+    margin-bottom: -12px;
+    display: block
+}
 
 /* About page */
 
