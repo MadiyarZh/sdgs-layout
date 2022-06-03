@@ -43,4 +43,8 @@ $(document).ready(function() {
           }
       }
   });
+  
+  $(".menu-button-container").click(function() {
+    $(".header-wrapper").toggleClass( "opened" );
+  });
 });
