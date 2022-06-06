@@ -199,7 +199,7 @@ header .header .languages .lang-btn:hover:before {
 }
 
 .main-page-wrapper .heading-block {
-    padding: 20px 50px 40px;
+    padding: 20px 0px 40px;
 }
 
 .heading-block h2 {
@@ -653,6 +653,17 @@ a {
     display: block
 }
 
+.footer-information-block li a {
+    color: #dddddd;
+}
+
+.footer-information-block li a:hover {
+    color: #19486a;
+}
+
+
+
+
 /* About page */
 
 .place {
@@ -804,11 +815,110 @@ a {
         line-height: 32px;
     }
 
+    .header-nav .dropdown .dropdown-content {
+        width: calc(100% - 23px);
+        max-width: 100%;
+        overflow: scroll;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .padding-pg {
+        padding: 20px 10px;
+    }
+
+    .padding-pg h2.title {
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .place {
+        margin-top: 10px;
+    }
+
+    .page-wrapper {
+        margin-top: 20px;
+    }
+
+    .page-wrapper.about  h5 {
+        font-size: 17px;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .padding-pg .owl-carousel {
+        margin-top: 10px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .heading-section {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .ftco-section {
+        padding: 20px 0;
+    }
+
+    .form-background .contact-wrap {
+        padding: 20px 25px!important;
+    }
+
+    .contact-wrap h3 {
+        text-align: center;
+    }
+
+    .info-wrap {
+        padding: 20px 25px !important;
+    }
+
+    .info-wrap h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .info-wrap p.mb-4 {
+        text-align: justify;
+        line-height: 18px;
+    }
+
+    .info-wrap .dbox {
+        margin-bottom: 10px;
+    }
+
+    .info-wrap .dbox p {
+        line-height: 20px;
+    }
+
+    #semnadcat-kategoriy .title {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .cyr-links {
+        margin-top: 20px;
+    }
+    
+    
+
+
     /* footer */
 
     .footer-information-block {
         flex-direction: column;
         align-items: center
+    }
+    
+    footer .footer-top .col-lg-3 .logo-block,
+    footer .footer-top .col-lg-3 h6 {
+        text-align: center;
     }
 
     footer .footer-top ul li {
