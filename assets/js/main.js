@@ -83,8 +83,8 @@
 	contactForm();
 
 
-	$(".menu-button-container").click(function() {
-		$(".header-wrapper").toggleClass( "opened" );
-	  });
+	// $(".menu-button-container").click(function() {
+	// 	$(".header-wrapper").toggleClass( "opened" );
+	//   });
 
 })(jQuery);
