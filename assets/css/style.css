@@ -1030,6 +1030,10 @@ a {
         padding: 5px 10px;
     }
 
+    .news-detail h2 {
+        margin: 15px auto 10px;
+    }
+
     .padding-pg {
         padding: 30px 20px;
     }
@@ -1047,6 +1051,12 @@ a {
 
     .footer-bottom .col-lg-10 {
         text-align: center;
+    }
+}
+
+@media (max-width: 1040px) and (min-width: 992px) {
+    .footer-top .logo-block img {
+        width: 100%;
     }
 }
 
